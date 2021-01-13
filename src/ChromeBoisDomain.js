@@ -12,7 +12,7 @@ export default class ChromeBoisDomain extends Component {
   }
 
   handleClick = (e) => {
-    toggleCycling();
+    toggleCycling(e);
   }
 
   handleKeyPress = (e) => {
